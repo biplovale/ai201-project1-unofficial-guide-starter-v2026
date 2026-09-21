@@ -110,18 +110,11 @@ It can be observed that the best distance for in-corpus questions ranges from 0.
 
 ## How I Used AI
 
-<!-- Two specific moments. For each: what you asked for, what came back, and
-     what you changed about it.
-
-     "I asked Claude to write the chunking function from my notes. It ignored
-     the overlap, so I added that myself" is the level of detail we're after.
-     "I used AI to help me code" is not.
-
-     Milestone 5. -->
-
 **1.**
+I used claude to read through the documents under my corpus and come up with questions to add for question.py, it suggested great questions in my opinion like "Is a bike worth getting for a 20-minute walk commute, and what are the main advantages and disadvantages?" but the expectations were not correct. like for above "November and March". I updated the prompt to get me more quantitative questions then it came with correct and quantitative expectations.
 
 **2.**
+I used claude to implement the new chuncking strategy I added and it firstly completely ignored the over-lap part of logic, then I added that logic back manaully.
 
 <!-- ── Stretch features ─────────────────────────────────────────────────────
      Doing one? Say so here BEFORE you start. A feature this README never
