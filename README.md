@@ -81,30 +81,32 @@ Empty office hours is the biggest unused resource here and I say that having was
 
 ## Sample Answer
 
-<!-- One complete question and answer, pasted as text, with the source line
-     visible. Milestone 4. -->
-
 **Question:**
+How much time does biking reduce an 18-minute walk commute to?
 
 **Answer:**
+(best distance 0.349, cutoff 0.7)
 
-```
-```
+Biking reduces an 18-minute walk to about 6 minutes (from thread_bike_commute.txt).
+
+Sources retrieved: thread_bike_commute.txt, thread_commuting.txt, thread_late_work.txt, thread_professor_email.txt, thread_winter_advice.txt
 
 **My relevance cutoff:**
 
-<!-- The number you set in config.py, and how you got there.
-
-     You ran five questions your corpus covers and the five in OUT_OF_SCOPE
-     that it clearly doesn't, and wrote down the best distance for each. What
-     did those two groups look like? Where was the gap? Put the actual numbers
-     here — the table below wants all ten rows.
-
-     Milestone 4. -->
-
 | Question | In corpus? | Best distance |
 |---|---|---|
-|  |  |  |
+| How much time does biking reduce an 18-minute walk commute to? | yes | 0.3486 |
+| How much does a commuter lounge locker cost to rent for one year? | yes | 0.6404 | 
+| How many black-and-white pages does the $30 printing quota cover? | yes | 0.4048 | 
+| How late can a student declare the pass/fail option? | yes | 0.4008 | 
+| How quickly do the west parking lots sell out in August, and how long is the walk from the east lot? | yes | 0.2666 | 
+| What is the capital of Mongolia? | no | 0.9479 | 
+| How do I change the oil in a diesel engine? | no | 0.9299 | 
+| Who won the 1994 World Cup? | no | 0.8850 | 
+| What is the recommended dosage of ibuprofen for a headache? | no | 0.8352 | 
+| How do I write a for loop in Rust? | no | 0.8712 | 
+
+It can be observed that the best distance for in-corpus questions ranges from 0.2666 to 0.6404, while the best distance for non-corpus questions averages about 0.8. Because of this, the initial threshold of 0.6 was changed to 0.7 so that valid in-corpus questions would not be cut off while most out-of-corpus questions would still be rejected as the gap seems to be from 0.6 to 0.8.
 
 ## How I Used AI
 
