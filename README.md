@@ -1,31 +1,13 @@
 # The Unofficial Guide
 
-<!-- Replace this line with your name and which corpus you picked. -->
-
-> **This file is your submission.** Fill it in as you go — most sections get
-> written during the milestone that produces them, not at the end.
->
-> How the starter works, and every command you'll need, is in `RUNNING.md`.
-> Leave that file alone.
->
-> **Paste everything as text.** No screenshots, no video. A typed table gets
-> full credit; a picture of the same table gets none.
->
-> Delete these instruction blocks as you replace them. The `<!-- -->` comments
-> are notes to you and don't show up when the page renders — you can leave them
-> or remove them.
-
----
+### Name: Biplov Ale 
+### Corpus Picked: Advice threads
 
 # Unit 1
 
 ## What This Does
 
-<!-- Three or four sentences. Which corpus you picked, and the kinds of
-     questions your system answers. Write it for someone who has never seen
-     this repo.
-
-     Milestone 5. -->
+The corpus I decided to pick is the "Advice Threads" corpus, which consists of student questions and replies from other students. This system answers practical questions about everyday college life, such as commuting, choosing classes, finding study spaces, managing group projects, and communicating with professors. It is designed to provide advice based on experiences and suggestions found in the collected threads. It works best for questions about the student situations represented in this corpus rather than general questions outside campus life.
 
 ## Chunking Strategy
 
